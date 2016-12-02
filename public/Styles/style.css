@@ -1,0 +1,125 @@
+.container {
+	width: 1035px;;
+  margin: auto;
+  min-height: 680px;
+  border: 3px solid #99CCFF;
+}
+.divLeft {
+	padding-top: 12rem;
+  border-right: 1px solid #DEDADA;
+  padding-right: 3rem;
+  background-color: #99CCFF;
+  min-height: 680px;
+}
+ul {
+  list-style: none;
+}
+.btn-default[disabled]{
+	color: #333;
+}
+#btnShowResult, #btnShowTest {
+	margin-top: 20px;
+	font-size: 18px;
+}
+#btnRun {
+	
+}
+#iframeResult {
+	    width: 107%;
+    height: 580px;
+    margin-top: -25px;
+    padding-left: 0rem;
+    overflow: auto;
+    margin-left: -41px;
+}
+.hide {
+	display: none;
+}
+.pdg-left8 {
+	padding-left: 8px;
+}
+.pdg-right5 {
+	padding-right: 5px;
+}
+.no-right-padding {
+	padding-right: 0px;
+}
+.redText {
+	color: red;
+}
+#error {
+	margin-bottom: 10px;
+}
+.form-control {
+  height: 5rem;
+}
+.navbar {
+	background-image: url('/Content/header.jpg');	
+	width: 1035px;
+  margin: auto;
+  height: 97px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+label {
+	font-size: 16px;
+}
+.divRight {
+	margin-top: 13rem;
+	padding-left: 6rem;
+}
+.btn {
+	width: 100%;
+	color: #fff;
+  padding: 10px 10px;
+	background-color: #333366;
+}
+.divRight ul li {
+	line-height: 4rem;
+}
+input[type=radio], input[type=checkbox] {
+    display:none;
+}
+.ulCollapse {
+  display: none;
+}
+input[type=radio] + label:before {
+    content: "";  
+    display: inline-block;  
+    width: 15px;  
+    height: 15px;  
+    vertical-align:middle;
+    margin-right: 8px;  
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #a0acba;
+}
+input[type=checkbox] + label:before {
+    content: "";  
+    display: inline-block;  
+    width: 22px;  
+    height: 22px;  
+    vertical-align:middle;
+    margin-right: 8px;  
+    background-color: white;
+    border: 2px solid #a0acba;
+}
+input[type=radio]:checked + label:before {
+    content: "\2022"; /* Bullet */
+    color:#ff8348;
+    background-color: white; 
+    font-size:1.8em;
+    text-align:center;
+    line-height:20px;
+    text-shadow:0px 0px 3px #eee;
+    font-size: 22px;
+}
+input[type=checkbox]:checked + label:before {
+    content:"\2714"; /* Tick */
+    color:#ff8348;
+    background-color: white; 
+    text-align:center;
+    line-height:20px;
+    text-shadow:0px 0px 3px #eee;
+    font-size: 22px;
+}

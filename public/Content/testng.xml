@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Build Verification Test" parallel="methods" thread-count="10">
+   
+ <parameter name="SYSTEMUNDERTEST" value="http://91.149.128.225:8087"/>
+ <parameter name = "GRIDHOST" value = "standalone"/> 
+ <parameter name = "PLATFORM" value = "WINDOWS"/>
+ 
+   <test name="Chrome">
+        <parameter name = "BROWSER"  value = "chrome"/>
+        <parameter name = "VERSION"  value = "ANY"/>
+       	<classes>
+      	  <class name="com.trantor.suppliermanagementtest.SupplierManagementTest" />
+      	  <!-- <class name="com.trantor.vendormanagement.VenderManagement" /> -->
+ 		</classes>
+  </test>    
+</suite>

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 5, Errors: 0, Skipped: 13, Time elapsed: 126.056 sec <<< FAILURE! - in TestSuite
+login(com.trantor.vendormanagement.VenderManagementTest)  Time elapsed: 18.036 sec  <<< FAILURE!
+java.lang.AssertionError: User is not able to login successfuly
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:31)
+	at com.trantor.vendormanagement.VenderManagementTest.login(VenderManagementTest.java:30)
+
+login(com.trantor.suppliermanagementtest.SupplierManagementTest)  Time elapsed: 17.18 sec  <<< FAILURE!
+java.lang.AssertionError: User is not able to login successfuly
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:31)
+	at com.trantor.suppliermanagementtest.SupplierManagementTest.login(SupplierManagementTest.java:42)
+
+login(com.trantor.suppliermanagementtest.AddASupplierAddressTest)  Time elapsed: 17.146 sec  <<< FAILURE!
+java.lang.AssertionError: User is not able to login successfuly
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:31)
+	at com.trantor.suppliermanagementtest.AddASupplierAddressTest.login(AddASupplierAddressTest.java:42)
+
+login(com.trantor.suppliermanagementtest.AddASupplierCertificatesTest)  Time elapsed: 17.161 sec  <<< FAILURE!
+java.lang.AssertionError: User is not able to login successfuly
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:31)
+	at com.trantor.suppliermanagementtest.AddASupplierCertificatesTest.login(AddASupplierCertificatesTest.java:47)
+
+Login(com.trantor.suppliermanagementtest.AddASupplierIndustryTest)  Time elapsed: 17.011 sec  <<< FAILURE!
+java.lang.AssertionError: User is not able to login successfuly
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:31)
+	at com.trantor.suppliermanagementtest.AddASupplierIndustryTest.Login(AddASupplierIndustryTest.java:48)
+

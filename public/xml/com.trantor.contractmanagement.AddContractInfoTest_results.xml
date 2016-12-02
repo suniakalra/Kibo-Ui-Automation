@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrome"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="54.902">
+  <properties />
+  
+  
+            <testcase name="verifyFundsTabOpenedAfterClickingContinueToFunds" time="8.720" classname="com.trantor.contractmanagement.AddContractInfoTest" />
+                <testcase name="initialize" time="0.001" classname="com.trantor.contractmanagement.AddContractInfoTest" />
+                <testcase name="VerifyContractManagementPage" time="3.094" classname="com.trantor.contractmanagement.AddContractInfoTest" />
+                <testcase name="VerifyContractManagementInfoPage" time="23.053" classname="com.trantor.contractmanagement.AddContractInfoTest" />
+                <testcase name="Login" time="20.034" classname="com.trantor.contractmanagement.AddContractInfoTest" />
+      
+</testsuite>

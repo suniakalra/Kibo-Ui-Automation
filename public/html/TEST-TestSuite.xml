@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="2.02" tests="5" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_60\jre\bin"/>
+    <property name="java.vm.version" value="24.60-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\karan.ahuja\workspace\EMS"/>
+    <property name="java.runtime.version" value="1.7.0_60-b19"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARAN~1.AHU\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.1.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_60\bin;C:\apache-maven-3.1.1\bin;C:\Users\karan.ahuja\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\karan.ahuja"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="karan.ahuja"/>
+    <property name="java.class.path" value="C:\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -PemsTest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Initialize" classname="com.trantor.vendormanagement.VenderManagementTest" time="0.004"/>
+  <testcase name="login" classname="com.trantor.vendormanagement.VenderManagementTest" time="2.016">
+    <failure message="no such element&#10;  (Session info: chrome=46.0.2490.86)&#10;  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;Trantor321&apos;, ip: &apos;192.168.172.197&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;&#10;*** Element info: {Using=id, value=ucLogon_txtUserID}&#10;Session ID: 3d3322445d3a0b345865c6c91bb66b7e&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\KARAN~1.AHU\AppData\Local\Temp\scoped_dir5924_17882}, rotatable=false, locationContextEnabled=true, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Trantor321', ip: '192.168.172.197', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_60'
+*** Element info: {Using=id, value=ucLogon_txtUserID}
+Session ID: 3d3322445d3a0b345865c6c91bb66b7e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\KARAN~1.AHU\AppData\Local\Temp\scoped_dir5924_17882}, rotatable=false, locationContextEnabled=true, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.trantor.test.common.SeleniumJavaScriptExecutor.ScrollToElement(SeleniumJavaScriptExecutor.java:25)
+	at com.trantor.test.common.ActionDriver.safeSendKey(ActionDriver.java:254)
+	at com.trantor.login.Login.username(Login.java:20)
+	at org.trantor.ems.Login_Test.Validlogin(Login_Test.java:19)
+	at com.trantor.vendormanagement.VenderManagementTest.login(VenderManagementTest.java:30)
+</failure>
+    <system-out><![CDATA[C:\Users\karan.ahuja\workspace\EMS\target
+Test login Failure - Screen Capture Begin
+<br>
+outputFolder : C:\Users\karan.ahuja\AppData\Roaming\Skype\My Skype Received Files\AutomationApp\AutomationApp\public\html\html<br>
+outFilename  : loginCHANY.png<br>
+17:01:25.905 [main] INFO  frameworkLogger - <img src="loginCHANY.png">
+End of Screen Capture on Failure<br>
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyPrsimDashBoardPage" classname="com.trantor.vendormanagement.VenderManagementTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifySupplierManagementMenuPage" classname="com.trantor.vendormanagement.VenderManagementTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyAddNewProfilePage" classname="com.trantor.vendormanagement.VenderManagementTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test" verbose="1" thread-count="1" configfailurepolicy="continue">
+	<parameter name="url" value="https://test.prismcompliance.com" />
+	<parameter name="browser" value="chrome" />
+	<!-- Smoke Test cases -->
+	<!-- OrderProcessingTests cases -->
+	<test name="OrderProcessingTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Intermix_StoreManager_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Intermix_StoreEmployee_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Intermix_StoreAssociate_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Modells_StoreManager_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Modells_StoreEmployee_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Modells_StoreAssociate_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Roots_StoreManager_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Roots_StoreEmployee_OrderProcessingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderProcessingTests.Roots_StoreAssociate_OrderProcessingTest" />
+		</classes>
+	</test>
+	<!-- OrderFulfillmentTests cases -->
+	<test name="OrderFulfillmentTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderFulfillmentTests.Intermix_OrderFulfillmentTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderFulfillmentTests.Modells_OrderFulfillmentTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderFulfillmentTests.Roots_OrderFulfillmentTest" />
+		</classes>
+	</test>
+	<!-- OrderInProcessTests cases -->
+	<test name="OrderInProcessTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderInProcessTests.Intermix_OrderInProcessTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderInProcessTests.Modells_OrderInProcessTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderInProcessTests.Roots_OrderInProcessTest" />
+		</classes>
+	</test>
+	<!-- FulfillerHomePageTests cases -->
+	<test name="FulfillerHomePageTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Intermix_StoreManager_FulfillerHomePageTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Intermix_StoreEmployee_FulfillerHomePageTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Intermix_StoreAssociate_FulfillerHomePageTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Modells_StoreManager_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Modells_StoreEmployee_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Modells_StoreAssociate_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Roots_StoreManager_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Roots_StoreEmployee_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.Roots_StoreAssociate_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.CostPlus_StoreManager_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.CostPlus_StoreEmployee_FulfillerHomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerHomePageTests.CostPlus_StoreAssociate_FulfillerHomeTest" />
+		</classes>
+	</test>
+	<!-- HomeTests cases -->
+	<test name="HomeTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.homeTests.Intermix_HomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.homeTests.Modells_HomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.homeTests.CostPlus_HomeTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.homeTests.Roots_HomeTest" />
+		</classes>
+	</test>
+	<!-- OrderListingTests cases -->
+	<test name="OrderListingTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderListingTests.Intermix_OrderListingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderListingTests.Modells_OrderListingTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderListingTests.Roots_OrderListingTest" />
+		</classes>
+	</test>
+	<!-- OrderLookupTests cases -->
+	<test name="OrderLookupTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderLookupTests.Intermix_OrderLookupTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderLookupTests.Modells_OrderLookupTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.orderLookupTests.Roots_OrderLookupTest" />
+		</classes>
+	</test>
+	<!-- ReturnsTests cases -->
+	<test name="ReturnsTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.returnsTests.Intermix_ReturnsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.returnsTests.Modells_ReturnsTest" />
+		</classes>
+	</test>
+	<!-- SearchInventoryTests cases -->
+	<test name="SearchInventoryTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.searchInventoryTests.Intermix_SearchInventoryTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.searchInventoryTests.CostPlus_SearchInventoryTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.searchInventoryTests.Modells_SearchInventoryTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.searchInventoryTests.Roots_SearchInventoryTest" />
+		</classes>
+	</test>
+	<!-- SettingsManageUserTests cases -->
+	<test name="SettingsManageUserTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.settingsManageUsersTests.Intermix_SettingsManageUsersTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.settingsManageUsersTests.Modells_SettingsManageUsersTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.settingsManageUsersTests.Roots_SettingsManageUsersTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.settingsManageUsersTests.CostPlus_SettingsManageUsersTest" />
+		</classes>
+	</test>
+	<!-- SerialNumberTestingTests cases -->
+	<test name="SerialNumberTestingTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.serialNumberTests.Intermix_SerialNumberTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.serialNumberTests.Modells_SerialNumberTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.serialNumberTests.Roots_SerialNumberTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.serialNumberTests.TourneauTest_SerialNumberTest" />
+		</classes>
+	</test>
+	<!-- WMSTests cases -->
+	<test name="WMSTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.wmsWorkFlowTests.WMS_IntermixTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.wmsWorkFlowTests.WMS_ModellsTest" />
+		</classes>
+	</test>
+	<!-- FulfillerAccountSettingsTests cases -->
+	<test name="FulfillerAccountSettingsTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.displaySettingsTests.Roots_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.displaySettingsTests.Intermix_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.displaySettingsTests.Modells_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.fulfillerInterfaceTests.Intermix_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.fulfillerInterfaceTests.Modells_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.fulfillerInterfaceTests.Roots_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.fulfillerInterfaceTests.CostPlus_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.returnsTests.Intermix_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.returnsTests.Modells_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.returnsTests.Roots_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.ISPU.Roots_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.pickAndPackTests.Intermix_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.pickAndPackTests.Modells_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.pickAndPackTests.Roots_Fulfiller_Account_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.fulfillerAccountSettingsTests.pickAndPackTests.CostPlus_Fulfiller_Account_SettingsTest" />
+		</classes>
+	</test>
+	<!-- LocationNetworkTests cases -->
+	<test name="LocationNetworkTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.CPWM_StoreManager_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.CPWM_StoreEmployee_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.CPWM_StoreAssociate_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Intermix_StoreManager_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Intermix_StoreEmployee_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Intermix_StoreAssociate_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Modells_StoreManager_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Modells_StoreEmployee_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Modells_StoreAssociate_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Roots_StoreManager_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Roots_StoreEmployee_LocationNetworkTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.locationNetworkTests.Roots_StoreAssociate_LocationNetworkTest" />
+		</classes>
+	</test>
+	<!-- PickAndPackSettingTests cases -->
+	<test name="PickAndPackSettingTests" thread-count="1" verbose="10" preserve-order="true">
+		<classes>
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.settingsTests.Roots_SettingsTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.openWavesPageTests.Roots_OpenWavePageTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.pickWaveDetailsPageTests.Roots_PickWaveDetailsPageTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.userRolesTests.Roots_UserRolesTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.simpleISPUTests.Roots_SimpleISPUTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.simpleSTHTests.Roots_SimpleSTHTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.advancedSTHTests.Roots_AdvancedSTHTest" />
+			<class name="com.kibo.qa.selenium.fulfillerTests.pickAndPackTests.advancedSTHTests.Roots_AdvancedSTHTest" />
+		</classes>
+	</test>
+</suite>

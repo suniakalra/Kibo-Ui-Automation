@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.083">
+  <properties />
+  
+  
+            <testcase name="initialize" time="0.003" classname="com.trantor.login.LoginTest" />
+                <testcase name="Login" time="10.080" classname="com.trantor.login.LoginTest" />
+      
+</testsuite>

@@ -1,0 +1,10 @@
+SrNo,ScriptFullName,ScriptName,Type
+1,com.trantor.vendormanagement.VenderManagementTest,Vendor Management Test,VendorManagement
+2,com.trantor.suppliermanagementtest.SupplierManagementTest,Supplier Management Test,VendorManagement
+3,com.trantor.suppliermanagementtest.AddASupplierAddressTest,Add A SupplierAddress Test,VendorManagement
+4,com.trantor.suppliermanagementtest.AddASupplierCertificatesTest,Add A Supplier Certificates Test,VendorManagement
+5,com.trantor.suppliermanagementtest.AddASupplierIndustryTest,Add A Supplier Industry Test,VendorManagement
+6,com.trantor.contractmanagement.AddContractInfoTest,Add A Contract Info Test,ContractManagement
+7,com.trantor.contractmanagement.AddContractFundsTest,Add A Contract Funds Test,ContractManagement
+8,com.trantor.contractmanagement.AddContractGoalTest,Add A Contract Goals Test,ContractManagement
+9,org.trantor.ems.Login_Test,Failed Login Test,Login
