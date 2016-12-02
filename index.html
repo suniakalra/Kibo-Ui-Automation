@@ -13,13 +13,11 @@
     <script src="/vendor/bootstrap/dist/js/bootstrap.js"></script>
     <script src="/Scripts/main.js"></script>
     <script src="/Scripts/xmlWriter.js"></script>
-    
+
   </head>
   <body>
    <div class="header">
-      <nav class="navbar navbar-default navbar-fixed-top">
-		<div class="col-sm-4 pull-right text-right"><h4>Test Automation</h4></div>
-      </nav>   
+      <nav class="navbar navbar-default navbar-fixed-top"></nav>
     </div>
     <div class="container">
         <div class="row">
@@ -27,18 +25,18 @@
                 <span id="error" class="redText"></span>
                 <div class="row">
                     <div class="col-sm-12">
-                        
+
                           <div class="form-group">
-                            <label for="selectTypes">Select Test Suite <span class="redText">*</span></label>                          
+                            <label for="selectTypes">Select Test Suite <span class="redText">*</span></label>
                             <select class="form-control" id="selectTypes" onchange="getOptions()">
                                 <option value="0">Select Suite</option>
                                 <option  value="Smoke Test">Smoke</option>
                                 <option  value="Regression Test">Regression</option>
-								<option  value="Build Verfication Test">Build Verification</option>
+                                <option  value="Build Verfication Test">Build Verification</option>
                             </select>
                           </div>
                           <div class="form-group">
-                            <label for="selectBrowser">Select Browser <span class="redText">*</span></label>                          
+                            <label for="selectBrowser">Select Browser <span class="redText">*</span></label>
                             <select class="form-control" id="selectBrowser">
                                 <option value="0">Select Browser</option>
                                 <option value="chrome">Chrome</option>
@@ -47,47 +45,47 @@
                             </select>
                           </div>
                           <div class="form-group">
-							<label for="selectIPAddress">Select IP Address <span class="redText">*</span></label>                          
+              <label for="selectIPAddress">Select IP Address <span class="redText">*</span></label>
                             <select class="form-control" id="selectIPAddress">
-								<option value="0">Select IP Address</option>
-                                <option value="standalone">Standalone</option>
+                <option value="0">Select IP Address</option>
+                                <option value="standalone">localhost</option>
                             </select>
                           </div>
-						  <div class="form-group">
+              <div class="form-group">
                             <label for="inputUrl">Test Environment <span class="redText">*</span></label>
                             <!-- <input type="text" class="form-control" id="inputUrl" placeholder="Input Url"> -->
                             <select class="form-control" id="selectUrl">
                                 <option value="0">Select URL</option>
-                                <option value="https://test.prismcompliance.com">https://test.prismcompliance.com</option>
+                                <option value="https://future-tronqa.cloudatron.com/fulfiller/">https://future-tronqa.cloudatron.com/fulfiller/</option>
                             </select>
 
                           </div>
                           <div class="row">
-							                 <div class="col-sm-4 no-right-padding">
+                               <div class="col-sm-4 no-right-padding">
                                 <button id="btnRun" onclick="return Validate('run');" class="btn btn-lg btn-default">Run</button>
-							               </div>
-							               <div class="col-sm-4 pdg-right5">
+                             </div>
+                             <div class="col-sm-4 pdg-right5">
                                 <button onclick="ReRun()" id="btnReRun" class="btn  btn-lg btn-default">Re-run</button>
-							               </div>
-							             <div class="col-sm-4 pdg-left8">
+                             </div>
+                           <div class="col-sm-4 pdg-left8">
                               <button id="btnRunAll" onclick="return Validate('runAll');" class="btn  btn-lg btn-default">Run All</button>
-							             </div>
+                           </div>
                          </div>
-						 <div class="row">
-							<div class="col-sm-12">
-								<a href="#" class="btn btn-default" id="btnShowResult">Display Result</a>
-								<a href="#" class="btn btn-default hide" id="btnShowTest">Display Test</a>
-							</div>
-						 </div>
+             <div class="row">
+              <div class="col-sm-12">
+                <a href="#" class="btn btn-default" id="btnShowResult">Display Result</a>
+                <a href="#" class="btn btn-default hide" id="btnShowTest">Display Test</a>
+              </div>
+             </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-8 divRight pull-right">
                 <ul class="list-unstyled" id="listOptions">
-                   
+
                 </ul>
-				<iframe name="iframeResult" class="hide" id="iframeResult"></iframe>
-            </div>  
+        <iframe name="iframeResult" class="hide" id="iframeResult"></iframe>
+            </div>
         </div>
     </div>
     <div class="footer">

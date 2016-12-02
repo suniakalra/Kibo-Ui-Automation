@@ -2,13 +2,14 @@
 	width: 1035px;;
   margin: auto;
   min-height: 680px;
-  border: 3px solid #99CCFF;
+  border: 3px solid #e0e3e6;
 }
 .divLeft {
 	padding-top: 12rem;
-  border-right: 1px solid #DEDADA;
+  border-right: 1px solid #e0e3e6;
+  border-left: 1px solid #e0e3e6;
   padding-right: 3rem;
-  background-color: #99CCFF;
+  background-color: #e0e3e6;
   min-height: 680px;
 }
 ul {
@@ -22,7 +23,7 @@ ul {
 	font-size: 18px;
 }
 #btnRun {
-	
+
 }
 #iframeResult {
 	    width: 107%;
@@ -54,12 +55,12 @@ ul {
   height: 5rem;
 }
 .navbar {
-	background-image: url('/Content/header.jpg');	
-	width: 1035px;
+	background: #327cb1 url('/Content/kibo-logo.png');
+	width: 100%;
   margin: auto;
   height: 97px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: 113px 12px
 }
 label {
 	font-size: 16px;
@@ -72,7 +73,7 @@ label {
 	width: 100%;
 	color: #fff;
   padding: 10px 10px;
-	background-color: #333366;
+	background-color: #327cb1;
 }
 .divRight ul li {
 	line-height: 4rem;
@@ -84,30 +85,30 @@ input[type=radio], input[type=checkbox] {
   display: none;
 }
 input[type=radio] + label:before {
-    content: "";  
-    display: inline-block;  
-    width: 15px;  
-    height: 15px;  
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
     vertical-align:middle;
-    margin-right: 8px;  
+    margin-right: 8px;
     background-color: white;
     border-radius: 8px;
     border: 2px solid #a0acba;
 }
 input[type=checkbox] + label:before {
-    content: "";  
-    display: inline-block;  
-    width: 22px;  
-    height: 22px;  
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
     vertical-align:middle;
-    margin-right: 8px;  
+    margin-right: 8px;
     background-color: white;
     border: 2px solid #a0acba;
 }
 input[type=radio]:checked + label:before {
     content: "\2022"; /* Bullet */
     color:#ff8348;
-    background-color: white; 
+    background-color: white;
     font-size:1.8em;
     text-align:center;
     line-height:20px;
@@ -117,7 +118,7 @@ input[type=radio]:checked + label:before {
 input[type=checkbox]:checked + label:before {
     content:"\2714"; /* Tick */
     color:#ff8348;
-    background-color: white; 
+    background-color: white;
     text-align:center;
     line-height:20px;
     text-shadow:0px 0px 3px #eee;
