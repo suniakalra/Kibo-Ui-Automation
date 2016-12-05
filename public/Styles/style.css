@@ -6,8 +6,7 @@
 }
 .divLeft {
 	padding-top: 12rem;
-  border-right: 1px solid #797979;
-  border-left: 1px solid #797979;
+  border: 1px solid #797979;
   padding-right: 3rem;
   background-color: #e0e3e6;
   min-height: 680px;
